@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-for i in range(26):
-    print(chr(ord('a')+i), end="")
+print(("{:c}"* 26).format(*[(ord('a')+i) for i in range(26)]), end="")
