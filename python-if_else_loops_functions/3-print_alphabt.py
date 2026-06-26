@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print(("{:c}" * 24).format(*[(ord('a') + i) for i in range(26) if ord('a') +i not in (ord('q'), ord('e'))]), end="")
+print("{}".format(''.join(
+    chr(97 + i) for i in range(26) if i not in [4, 16])), end='')
