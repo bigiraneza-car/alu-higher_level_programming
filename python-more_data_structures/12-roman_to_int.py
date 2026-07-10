@@ -7,9 +7,8 @@ def roman_to_int(roman_string):
     total = 0
     for i in range(len(roman_string)):
         current = values[roman_string[i]]
-        if i +1 < len(roman_string) and values[roman_string[i + 1]] > current:
+        if i + 1 < len(roman_string) and values[roman_string[i + 1]] > current:
             total -= current
         else:
             total += current
     return total
-
