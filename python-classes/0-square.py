@@ -2,5 +2,5 @@
 """Defines an empty class Square"""
 
 
-Class square:
+class square:
     """Represents a square"""
