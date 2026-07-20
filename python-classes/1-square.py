@@ -5,10 +5,6 @@
 class Square:
     """Represents a square."""
 
-
-    def __init__ (self, __size):
+    def __init__(self, size):
         """Reinitialize the private instance attribute size."""
         self.__size = size
-
-x = Square()
-print(x)
