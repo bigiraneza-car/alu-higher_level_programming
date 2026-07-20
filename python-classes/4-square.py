@@ -9,10 +9,12 @@ class Square:
         """Reinitialize the private instance attribute size."""
         self.size = size
 
+    @property
     def size(self):
         """A getter that return the size value.""" 
         return self.__size
 
+    @size.setter
     def size(self, value):
         """A setter, that set the final value of the size."""
         if not isinstance(value, int):
