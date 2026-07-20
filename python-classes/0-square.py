@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" defines a empty class square."""
+""" python3 -c 'print(__import__("my_module").__doc__)'"""
 Class square:
     """ python3 -c 'print(__import__("my_module").MyClass.__doc__)' """
 
