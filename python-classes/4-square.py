@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size=0):
         """Reinitialize the private instance attribute size."""
-        self.__size = size
+        self.size = size
 
     def size(self):
         """A getter that return the size value.""" 
