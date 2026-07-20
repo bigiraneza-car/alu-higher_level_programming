@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines an empty class square."""
+"""Defines a class square with size validation, area, and printing."""
 
 
 class Square:
@@ -34,5 +34,5 @@ class Square:
             print()
             return
         for i in range(self.__size):
-            print("#" * self.size)
+            print("#" * self.__size)
 ~
